@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Track Your Time</title>
+</head>
+
+<body>
+
+ 
+
+   <div class="watch">
+    <h1 id="second">00:00</h1>
+    <button id="start" onclick="startClock()">START</button>
+    <button id="stop" onclick="stopClock()">STOP</button>
+    <button id="reset" onclick="resetClock()">RESET</button>
+   </div>
+
+
+
+   <div class="todo-container">
+    <h1>To-Do List</h1>
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  
+
+
+ 
+<h5>Mohit's Time</h5>
+
+  <script src="script.js"></script>
+</body>
+</html>
